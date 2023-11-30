@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+
+    <link rel="icon" href="images/logo.jpg" type="icone">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo">Search</a>
+
+    <form action="">
+        <input type="search" id="search-bar">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="theme-toggler" class="fas fa-moon"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- navbar section  -->
+
+<nav class="navbar">
+
+    <div class="user">
+        <img src="images/logo.jpg" alt="">
+    </div>
+
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#products">Livros</a>
+        <a href="#review">Avaliações</a>
+    </div>
+
+    <div id="close" class="fas fa-times"></div>
+
+</nav>
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <h1 class="heading"><span>Categorias</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/rom.jpg" alt="">
+            <div class="content">
+                <h3>ROMANCE</h3>
+                <a href="#" class="btn">LEIA</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/sus.jpg" alt="">
+            <div class="content">
+                <h3>SUSPENSE</h3>
+                <a href="#" class="btn">LEIA</a>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Ultimos <span>Livros</span> </h1>
+
+<div class="swiper-container product-slider gap">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/rom.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 250 Avaliações )</span>
+                    </div>
+                    <h3>Livro de Romance</h3>
+                    <div class="price">165R$ <span>255R$</span></div>
+                    <a href="#" class="btn">Ler</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sus.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 250 Avaliações )</span>
+                    </div>
+                    <h3>Livro De Suspense<Select:disabled></h3>
+                    <div class="price">125R$ <span>250$</span></div>
+                    <a href="#" class="btn">ler</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="slide">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/fic.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 250 Avaliações )</span>
+                    </div>
+                    <h3>Livro De Ficção</h3>
+                    <div class="price">100R$ <span>200$</span></div>
+                    <a href="#" class="btn">Ler</a>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+
+</section>
+
+<!-- products section ends -->
+
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Avaliações <span>Recentes</span> </h1>
+
+<div class="swiper-container review-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nihil aut praesentium qui non, magnam perspiciatis commodi fugit cumque quos, deserunt quidem esse fuga facilis exercitationem, dolorum itaque corrupti tempore.</p>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nihil aut praesentium qui non, magnam perspiciatis commodi fugit cumque quos, deserunt quidem esse fuga facilis exercitationem, dolorum itaque corrupti tempore.</p>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nihil aut praesentium qui non, magnam perspiciatis commodi fugit cumque quos, deserunt quidem esse fuga facilis exercitationem, dolorum itaque corrupti tempore.</p>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nihil aut praesentium qui non, magnam perspiciatis commodi fugit cumque quos, deserunt quidem esse fuga facilis exercitationem, dolorum itaque corrupti tempore.</p>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+<div class="footer-container">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>links</h3>
+            <a href="#">home</a>
+            <a href="#">produtos</a>
+            <a href="#">Avaliações</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">minha conta</a>
+            <a href="#">meus favoritos</a>
+            <a href="#">minha ordem</a>
+            <a href="#">meus cartões</a>
+        </div>
+
+        <div class="box">
+            <h3>contato BR</h3>
+            <a href="#">+55 (11) 9 6042-5618</a>
+            <a href="#">oficial.search@gmail.com</a>
+            <a href="#">São Paulo, Brasil - 400104</a>
+            <img src="images/payment.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> samuca </span> | all rights reserved (os direito é meu vacilão) </div>
+
+</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
